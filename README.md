@@ -35,6 +35,15 @@ python app.py
 
 Em seguida, aceda a `http://127.0.0.1:5000/livros` no navegador ou numa ferramenta de teste de APIs (ex.: curl, Postman, Insomnia).
 
+## Como executar os testes automatizados
+
+Com o ambiente virtual ativado, execute:
+```bash
+python -m unittest -v
+# ou
+python test_app.py -v
+```
+
 ---
 
 ## Respostas às questões de revisão
